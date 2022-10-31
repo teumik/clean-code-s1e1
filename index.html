@@ -6,22 +6,53 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body class="page">
-  <aside class="matrix"><img class="matrix__image" src="./eisenhower-matrix.jpg" alt="Eisenhower Matrix - method to organize priorities and workload"><a class="more__info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a></aside>
+  <aside class="matrix">
+    <img class="matrix__image" src="./eisenhower-matrix.jpg" alt="Eisenhower Matrix - method to organize priorities and workload">
+    <a class="more__info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+  </aside>
   <article class="main">
-    <section class="add-section" id="add-items"><label class="add-section__header header" for="new-item">Add Item</label>
-      <div class="add-section__item task"><input id="new-item"class="task__input" type="text"><button class="task__button task__button_add">Add</button></div>
+    <section class="add-section" id="add-items">
+      <label class="add-section__header header" for="new-item">Add Item</label>
+      <div class="add-section__item task">
+        <input id="new-item"class="task__input" type="text">
+        <button class="task__button task__button_add">Add</button>
+      </div>
     </section>
     <section class="incomplete-section">
       <h3 class="incomplete-section__header header">Todo</h3>
       <ul class="task-wrapper" id="incomplete-tasks">
-        <li class="incomplete-section__item task"><input class="task__checkbox" type="checkbox"><label class="task__label">Pay Bills</label><input type="text" class="task__input"><button class="task__button task__button_edit">Edit</button><button class="task__button task__button_remove"><img class="task__remove-icon" src="./remove.svg" alt="Remove Item"></button></li>
-        <li class="incomplete-section__item incomplete-section__item_edited task"><input class="task__checkbox" type="checkbox"><label class="task__label">Go Shopping</label><input type="text" value="Go Shopping" class="task__input"><button class="task__button task__button_edit">Save</button><button class="task__button task__button_remove"><img class="task__remove-icon" src="./remove.svg" alt="Remove Item"></button></li>
+        <li class="incomplete-section__item task">
+          <input class="task__checkbox" type="checkbox">
+          <label class="task__label">Pay Bills</label>
+          <input type="text" class="task__input">
+          <button class="task__button task__button_edit">Edit</button>
+          <button class="task__button task__button_remove">
+            <img class="task__remove-icon" src="./remove.svg" alt="Remove Item">
+          </button>
+        </li>
+        <li class="incomplete-section__item incomplete-section__item_edited task">
+          <input class="task__checkbox" type="checkbox">
+          <label class="task__label">Go Shopping</label>
+          <input type="text" value="Go Shopping" class="task__input">
+          <button class="task__button task__button_edit">Save</button>
+          <button class="task__button task__button_remove">
+            <img class="task__remove-icon" src="./remove.svg" alt="Remove Item">
+          </button>
+        </li>
       </ul>
     </section>
     <section class="completed-section">
       <h3 class="completed-section__header header">Completed</h3>
       <ul class="task-wrapper" id="completed-tasks">
-        <li class="completed-section__item task"><input class="task__checkbox" type="checkbox" checked><label class="task__label">See the Doctor</label><input type="text" class="task__input"><button class="task__button task__button_edit">Edit</button><button class="task__button task__button_remove"><img class="task__remove-icon" src="./remove.svg" alt="Remove Item"></button></li>
+        <li class="completed-section__item task">
+          <input class="task__checkbox" type="checkbox" checked>
+          <label class="task__label">See the Doctor</label>
+          <input type="text" class="task__input">
+          <button class="task__button task__button_edit">Edit</button>
+          <button class="task__button task__button_remove">
+            <img class="task__remove-icon" src="./remove.svg" alt="Remove Item">
+          </button>
+        </li>
       </ul>
     </section>
   </article>
