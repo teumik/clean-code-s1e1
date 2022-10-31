@@ -103,6 +103,11 @@ button{
 }
 
 /* New Task */
+.add-section {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
 .add-section__header {
   display: block;
   margin: 0 0 20px;
