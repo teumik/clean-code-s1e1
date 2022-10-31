@@ -34,7 +34,8 @@
   margin: 0 auto 0;
 }
 
-.task__input, .task__label {
+.task__input,
+.task__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -116,7 +117,6 @@ button{
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
