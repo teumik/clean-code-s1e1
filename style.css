@@ -135,18 +135,18 @@
   vertical-align: middle;
 }
 
-.task-wrapper .task .task__checkbox {
+.task-wrapper .task__checkbox {
   margin: 0 10px;
 }
 
-.task-wrapper .task .task__label {
+.task-wrapper .task__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.task-wrapper .task .task__input {
+.task-wrapper .task__input {
   width: 226px;
 }
 
@@ -161,17 +161,17 @@
 }
 
 /* Completed */
-.completed-section__item .task__label {
+#completed-tasks .task__label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.task-wrapper .task .task__input {
+.task-wrapper .task__input {
   display: none;
 }
 
-.task-wrapper .incomplete-section__item_edited .task__input {
+.incomplete-section__item_edited .task__input {
   display: inline-block;
   width: 224px;
 }
