@@ -119,7 +119,7 @@
 }
 
 /* Task list */
-.task-wrapper > .task {
+.task-wrapper .task {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -128,25 +128,25 @@
   align-items: center;
 }
 
-.task-wrapper > .task__checkbox,
-.task-wrapper > .task__label,
-.task-wrapper > .task__input,
-.task-wrapper > .task__button {
+.task-wrapper .task__checkbox,
+.task-wrapper .task__label,
+.task-wrapper .task__input,
+.task-wrapper .task__button {
   vertical-align: middle;
 }
 
-.task-wrapper > .task > .task__checkbox {
+.task-wrapper .task .task__checkbox {
   margin: 0 10px;
 }
 
-.task-wrapper > .task > .task__label {
+.task-wrapper .task .task__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.task-wrapper > .task > .task__input {
+.task-wrapper .task .task__input {
   width: 226px;
 }
 
