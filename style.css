@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.matrix .matrix__image {
+.matrix__image {
   width: 100%;
 }
 
-.matrix .more__info {
+.matrix__info-link {
   font-family: fantasy, cursive;
 }
 
@@ -114,7 +114,7 @@
   margin: 0 0 20px;
 }
 
-.task__input#new-item {
+#new-item {
   width: 318px;
 }
 
@@ -150,18 +150,18 @@
   width: 226px;
 }
 
-.task__button.task__button_remove .task__remove-icon {
+.task__remove-icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.task__button.task__button_remove .task__remove-icon:hover {
+.task__remove-icon:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.task-wrapper#completed-tasks .task__label {
+.completed-section__item .task__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -176,6 +176,6 @@
   width: 224px;
 }
 
-.task-wrapper .incomplete-section__item_edited .task__label {
+.incomplete-section__item_edited .task__label {
   display: none;
 }
